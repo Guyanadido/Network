@@ -1,0 +1,36 @@
+{% extends "network/layout.html" %}
+
+
+{% block body %}
+        <div id="container">
+            <h1>All Posts</h1>
+            <div class="post">
+                <form id="newPost">
+                    {% csrf_token %}
+                    <label for="floatingTextarea"><h3>New Post</h3></label>
+                    <div class="form-floating">
+                        <textarea class="form-control content" id="floatingTextarea"></textarea>
+                    </div>
+                    <input class="btn btn-primary" type="submit" value="Post">
+                </form>
+            </div>
+        </div>
+        <div id="profile">
+            <div class="profile-info">
+                <h4 class="username">All {{ user.username }} posts</h4>
+                <h4 data-followers class="followers">followers: 50k</h4>
+                <h4 data-follows class="follows">follows: 100</h4>
+                {% csrf_token %}
+            </div>
+        </div>
+        <div style="display: none;" id="followPosts"> 
+            <h1>Posts Of People You Follow</h1>
+        </div>
+        <div style="display: none;" class='col-md-3 offset-md-3 navigation'>
+            <nav aria-label="...">
+                <ul class="pagination list">
+                    
+                </ul>
+              </nav>
+        </div>
+{% endblock %}

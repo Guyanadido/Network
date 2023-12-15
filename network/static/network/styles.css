@@ -1,0 +1,61 @@
+#container {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.post {
+    width: 100%;
+    height: auto;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px auto;
+}
+
+.post input {
+    margin-top: 2px;
+}
+
+#profile {
+    margin: 50px 100px;
+}
+
+#followPosts {
+    margin: 50px 100px;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: gray;
+}
+
+.username {
+    cursor: pointer;
+}
+
+.edit {
+    cursor: pointer;
+    color: #0275d8;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 200,
+  'GRAD' 0,
+  'opsz' 24;
+  cursor: pointer;
+}
+
+.liked {
+font-variation-settings:
+  'FILL' 1,
+  'wght' 200,
+  'GRAD' 0,
+  'opsz' 24
+}

@@ -13,7 +13,7 @@ cs50==9.2.5
 dbus-python==1.2.18
 distlib==0.3.7
 distro==1.7.0
-distro-info===1.1build1
+distro-info===1.0build1
 Django==4.2.7
 exceptiongroup==1.2.0
 filelock==3.13.1

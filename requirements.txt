@@ -44,6 +44,7 @@ platformdirs==4.1.0
 psycopg2-binary==2.9.9
 ptyprocess==0.7.0
 PyGObject==3.42.1
+pycairo==1.25.1
 PyJWT==2.3.0
 pyparsing==2.4.7
 PySocks==1.7.1
